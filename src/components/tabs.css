@@ -1,0 +1,46 @@
+.section-2{
+    /* background-color:gray; */
+}
+
+
+
+#gaming{
+    height: 300px;
+    /* background-color: red; */
+    background-image: linear-gradient(to right, rgba(2, 2, 2, 0.829), rgba(255, 0, 0, 0.26)) , url("../img/gaming.webp") ;
+
+    background-size: cover;
+    background-repeat: no-repeat;}
+ 
+    .tabs-container{
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        color: white;
+    }
+    .h2-shadow{
+        text-shadow: 2px 2px 5px red;
+        font-size: 40px;
+    }
+    .p-tabs{
+        font-size: 20px;
+    }
+
+    #speaker{
+        height: 300px;
+        /* background-color: red; */
+        background-image: linear-gradient(to right, rgba(2, 2, 2, 0.514), rgba(23, 3, 56, 0.753)) , url("https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1692940742197-speaker1.jpg") ;
+     background-position-x: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    #tv{
+        height: 300px;
+        /* background-color: red; */
+        background-image: linear-gradient(to right, rgba(2, 2, 2, 0.651), rgba(27, 27, 27, 0.781)) , url("https://storage.googleapis.com/fir-auth-1c3bc.appspot.com/1694154515879-819Lw2PE8tL._SL1500_.jpg") ;
+     background-position-x: right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        
+    }

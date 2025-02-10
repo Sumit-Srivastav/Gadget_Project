@@ -1,0 +1,55 @@
+.price{
+    color:black;
+    /* text-decoration: line-through red 2px; */
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.filterbtn{
+    position: absolute;
+/* left:0px; */
+top: 48px;}
+@media  screen and  (min-width:  575px){
+    .productsImg{
+        height: 250px;
+        width: 100%;
+      }
+    
+  }
+  @media  screen and  (min-width: 992px){
+ .filter-container{
+    padding: 40px 0 ;
+ }
+    
+  }
+  
+  
+  @media  screen and  (max-width:  575px){
+    .productsImg{
+     width: 200px;
+      }
+      .productsContainer{
+        margin-left: auto;
+        margin-right: auto;
+  }
+    .productsDetails{
+text-align: center;
+    }
+    .filterbtn{
+    
+        margin-left: 8%;
+     
+    }
+    .filter-element{
+      padding-left: 9% !important;
+      }
+  }
+  .filter-element{
+    /* position: absolute; */
+    margin-top: 80px !important;
+   
+  }
+  .navbar-toggle{
+    color: transparent;
+  }
+

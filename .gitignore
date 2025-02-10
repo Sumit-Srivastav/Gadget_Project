@@ -1,0 +1,69 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Build directories
+dist/
+build/
+out/
+
+# Environment files
+.env
+
+# Package manager lock files
+yarn.lock
+package-lock.json
+
+# Dependency directories
+bower_components/
+
+# macOS specific
+.AppleDouble
+.LSOverride
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+
+# JetBrains IDEs
+.idea/
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Maven
+target/
+
+# Ruby
+*.gem
+*.rbc
+.bundle/
+log/
+tmp/
+
+# .NET
+bin/
+obj/
+
+# JetBrains
+*.iml

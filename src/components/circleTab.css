@@ -1,0 +1,8 @@
+.CircleTab{
+    background-color: rgb(231, 192, 192);
+}
+.circleTabImg{
+    border-radius: 50%;
+    border: 2px solid rgb(19, 2, 58);
+  
+}

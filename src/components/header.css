@@ -1,0 +1,136 @@
+
+.logo{
+text-shadow: 2px 2px 5px;
+font-weight:400;
+}
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+  }
+  .dropDown{
+position: relative;
+  }
+  .dropDown-items{
+    position: absolute;
+   display: none;
+   background-color: rgb(255, 255, 255); 
+   box-shadow: 0px 0px 20px black;
+   padding: 10px;
+   z-index: 1;
+      }
+      .dropDown:hover .dropDown-items{
+      display: block;
+      }
+  
+  .navbar {
+    padding: 10px 0; 
+    max-width: 80%;
+    margin: auto ;
+  
+  }
+  .navbar-content {
+    display: flex; 
+
+  }
+  
+ 
+  .navbar-link {
+    color: black !important;
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: bold !important;
+  
+  }
+  
+ 
+  
+
+  .header-symbol{
+    position: absolute;
+     top: 0px;
+    right: 20px;
+    display: block !important;
+    float: right;
+  }
+  @media  screen and  (min-width:992px){
+    .header-symbol{
+      position: absolute;
+       top: 15px;
+      right: 20px;
+      display: flex !important;
+      float: right;
+    }
+    .header-symbol a{
+    margin: 0px 8px !important;
+    padding: 4px;
+    font-size: 20px;}
+
+    .navbar-link {
+      color: black !important;
+      text-decoration: none;
+      margin-right: 40px !important;
+      padding: 8px 15px;
+      font-size: 18px;
+      font-weight: bold !important;
+      transition: all  ease 0.7s !important; /* Combines transition-duration and transition-delay */
+      border-radius: 10px;
+    }
+    
+    .navbar-link:hover {
+      box-shadow: inset 140px 0px 20px rgb(24, 3, 49);
+      color:white !important;
+    }
+    .dropDown-items{
+      /* background-color: red; */
+      border-radius: 20px;
+ 
+    }
+  }
+
+  .cart-lenght{
+    position: absolute;
+    font-weight: bolder;
+    left: 45%;
+   
+      animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  }
+
+@keyframes bounce {
+  0%{
+    top: -15px;
+
+  }
+  30%{
+    top:-8px;
+
+  }
+  70%{
+    top: -15px;
+ 
+  }
+  
+  100%{
+    top:-8px;
+  }}
+
+  @media screen and (max-width:991px) {
+.navbar-content{
+  margin:10px 0
+}
+.icon-container{
+  margin-top: 10px;
+}
+.cart-lenght{
+  /* position: absolute;
+  font-weight: bolder; */
+  left: 42%; 
+ top: -12px;
+    animation-name:none;
+
+}}
